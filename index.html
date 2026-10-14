@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Viagem Espacial - Grafos</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>🚀 Viagem Espacial</h1>
+<p id="info">
+  <span>Planeta atual: <b id="atual"></b></span>
+  <span>Destino: <b id="destino"></b></span>
+  <span>Combustível gasto: <b id="combustivel"></b></span>
+  <span>Viagens: <b id="viagens"></b></span>
+</p>
+<svg id="mapa" width="700" height="400" viewBox="0 0 700 400"></svg>
+<div id="mensagem"></div>
+<button onclick="reiniciar()">Reiniciar</button>
+<p><small>Verde = você | Azul = vizinhos (clique para viajar) | Vermelho = destino</small></p>
+
+<script src="script.js"></script>
+</body>
+</html>

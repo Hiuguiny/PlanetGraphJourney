@@ -1,0 +1,15 @@
+body { background: #0b0d1a; color: #eee; font-family: Arial, sans-serif; text-align: center; }
+svg { background: #11142a; border: 1px solid #333; border-radius: 8px; max-width: 100%; }
+#info span { margin: 0 12px; }
+#info b { color: #ffd54f; }
+line { stroke: #556; stroke-width: 2; }
+line.disponivel { stroke: #4fc3f7; stroke-width: 3; }
+text { fill: #eee; font-size: 14px; text-anchor: middle; pointer-events: none; }
+text.custo { fill: #ffd54f; font-size: 13px; }
+circle { fill: #667; stroke: #222; stroke-width: 2; }
+circle.destino { fill: #e53935; }
+circle.vizinho { fill: #4fc3f7; cursor: pointer; }
+circle.vizinho:hover { fill: #81d4fa; }
+circle.atual { fill: #66bb6a; stroke: #fff; stroke-width: 3; }
+button { padding: 8px 20px; font-size: 15px; cursor: pointer; margin-top: 10px; }
+#mensagem { min-height: 50px; font-size: 17px; margin-top: 10px; }
